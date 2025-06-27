@@ -1,0 +1,151 @@
+*{
+    box-sizing:border-box;
+}
+html, body{
+    padding:0px;
+    margin:0px;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+header{
+    height:80px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding:10px 0px;
+    background:lightgrey;
+}
+.left-bar{
+    color:green;
+    float:left;
+    width:8%; 
+}
+.navig-bar{     
+    margin-left:10%;
+    background:lightgrey;
+    width:60%;
+}
+.navig-bar >ul>li{
+    list-style-type:none;
+    display: float;
+    float:left;
+    padding:5px 2.5%;
+               
+}
+.navig-bar > ul > li >a {
+    text-decoration:none;
+    color:purple;       
+}
+.navig-bar > ul > li > a:hover {
+    background:blue;
+    color:white;
+    padding:10px;
+}
+#active{
+    background:blue;
+    color:white;
+    padding:10px;
+}
+.right-bar{
+    margin:2%;
+    width:15%;
+    float:right;
+}
+.right-bar>ul>li{
+    list-style-type: none;
+    padding:5px;
+    float:left;
+}
+.right-bar > ul > li > a{
+    text-decoration:none;
+}
+.right-bar > ul > li > a:hover {
+    background-color:blue;
+    color:white;
+    padding:10px;
+}
+
+main{
+    height:auto;
+    background-color: yellow;
+    text-align: center;
+    padding:20px;
+.main-display{
+    display:flex;
+    flex-direction:row;  
+}
+} 
+.intro{
+    width:450px;
+    height:auto;
+    margin-top:80px;
+    margin-left:100px;
+}
+.intro>button{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    width:120px;
+}
+.intro>button:hover{
+    background:rgb(0, 255, 26);
+}
+.image{
+    margin-right:auto;
+    margin-left:100px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+footer{
+    width:100%;
+    background:purple;
+    bottom:0px;
+    height:80px;
+    padding:30px;
+}
+.social-med{
+    width:200px;
+    height:auto;
+}
+.social-med>a{
+    color:aliceblue;
+    padding:10px;
+}
+.social-med>a:hover{
+    color:blue;
+}
+.project{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border:1px solid rgb(71, 236, 6);
+    
+}
+.main-display>h1{
+    text-align: center;
+}
+.project-wrap{
+    margin:5px;
+    border:1px solid purple;
+    background:white;
+    border-radius:5px;
+}
+.prog-lang{
+    text-align:center;
+    color:purple;
+}
+.prog-lang>h2{
+    padding:0 20px;
+
+
+}
+.resume{
+    width:60%;
+    height:auto;
+    background:white;
+    margin-left 20%;
+}
